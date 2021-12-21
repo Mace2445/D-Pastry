@@ -38,7 +38,6 @@ int main()
       }
       status++;
    }
-    system("pause");
     fclose(registrasi);
    return 0;
 }
