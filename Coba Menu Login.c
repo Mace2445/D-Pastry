@@ -2,11 +2,10 @@
 #include <stdio.h>
 #include <string.h>  
 
-int main()
+int main() {
+struct
 {
-	struct
-{
-    char nama[50], userid[50], password[50],nomortelfon[50];
+    char nama[50], userid[50], password[50],nomortelfon[50],tipeAkun[10];
 } a;
 	char idlogin [100],passwordlogin [100];
 	 int status = 1, salah = 1;
@@ -36,7 +35,6 @@ int main()
             printf("Akses ditolak\n");
          }
       }
-      status++;
    }
     fclose(registrasi);
    return 0;
