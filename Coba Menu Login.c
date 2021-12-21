@@ -9,7 +9,7 @@ int main()
     char nama[50], userid[50], password[50],nomortelfon[50];
 } a;
 	char idlogin [100],passwordlogin [100];
-	 int status = 1, salah = 0;
+	 int status = 1, salah = 1;
 
 
  FILE *registrasi;
